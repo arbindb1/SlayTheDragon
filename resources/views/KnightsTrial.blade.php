@@ -1,0 +1,1 @@
+<x-quiz-card question="What is the capital of Nepal?" action="#" buttonValue="Next" :deadline="$deadline"/>

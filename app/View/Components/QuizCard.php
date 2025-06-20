@@ -15,13 +15,15 @@ class QuizCard extends Component
     public $action;
     public $buttonValue;
     public $deadline;
+    public $roundName;
 
-    public function __construct($question,$action,$buttonValue,$deadline)
+    public function __construct($question,$action,$buttonValue,$deadline,$roundName)
     {
         $this->question = $question;
         $this->action = $action;
         $this->buttonValue = $buttonValue;
         $this->deadline = $deadline;
+        $this->roundName = $roundName;
     }
 
     /**

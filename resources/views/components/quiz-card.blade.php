@@ -2,6 +2,9 @@
     <!-- It is quality rather than quantity that matters. - Lucius Annaeus Seneca -->
      <div>
         <div>
+           {{ $roundName }}
+        </div>
+        <div>
             Time Left: <span  id="countdown"></span>
         </div>
         <div>

@@ -1,1 +1,1 @@
-<x-quiz-card question="What is the capital of Nepal?" action="#" buttonValue="Next" :deadline="$deadline"/>
+<x-quiz-card :question="$data['question']" action="#" buttonValue="Next" :deadline="$deadline" :roundName="$data['type']" />

@@ -8,7 +8,7 @@
             Time Left: <span  id="countdown"></span>
         </div>
         <div>
-            Gold Obtained: <span id="gold-obtained"></span>
+            Gold Obtained: <span id="gold-obtained">{{ session('trial_score',0) }}</span>
         </div>
         <div>
             <h2>{{ $question }}</h2>
